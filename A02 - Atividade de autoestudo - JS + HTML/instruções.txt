@@ -1,0 +1,13 @@
+Instruções
+Utilizando o VS Code Web ou local:
+
+Criar um arquivo .html
+Dentro do arquivo HTML, criar os elementos básicos de uma página;
+Adicionar um botão que chama a função lerExibir();
+Adicione a função lerExibir, que pode estar junto da declaração do botão;
+Utilizando o window.prompt e uma variável, armazenar o que o usuário digitar;
+Utilizando o window.alert, exibir o que o usuário digitou.
+Formato da entrega: 
+1 arquivo .html
+
+A consulta é possível e recomendável, mas não utilizem ferramentas de geração de conteúdo (LLMs/ChatGPT).
