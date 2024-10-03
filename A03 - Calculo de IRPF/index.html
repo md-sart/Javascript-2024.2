@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadore de IRPF</title>
+    <link rel="stylesheet" href="/A03 - Calculo de IRPF/style.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1 class="content__title">Bem vindo(a) a calculadora de IRPF 2024</h1>
+            <p class="message">Digite o valor da base de cálculo</p>
+            <input type="number" class="text-input" placeholder="0,00" step=""0.01 id="salarioInput"></textarea>
+            <div class="buttons">
+                <button class="btn" id="calcularBtn">Calcular</button>
+            </div>
+        </div>
+        <aside>
+            <h2 id="sideMessage">Nenhum valor localizado, insira seu salário para iniciar</h2>
+            <div class="aside-buttons">
+                <button class="btn" id="clearBtn" disabled>Limpar</button>
+            </div>
+        </aside>
+    </main>
+    <script src="/A03 - Calculo de IRPF/script.js"></script>
+</body>
+</html>
