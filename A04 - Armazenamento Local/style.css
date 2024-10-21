@@ -2,31 +2,64 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    }
+}
 
 form {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 80%;
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    }
+}
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"] {
-        width: calc(100% - 20px);
-        padding: 8px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+input[type="button"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
-    input[type="submit"] {
-        background-color: #007bff;
-        color: white;
-        cursor: pointer;
-        border:none;
-        }
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    border: 1px solid #cccccc;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #007bff;
+    width: 100px;
+    padding: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 0;
+}
+
+#dados-armazenados {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+#dados-armazenados h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+#dados-armazenados p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #000000;
+}

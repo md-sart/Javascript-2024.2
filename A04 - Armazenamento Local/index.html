@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="/A04 - Armazenamento Local/style.css">
 </head>
 <body>
-    <form>
-        Nome: <input type="text" name="nome"><br>
-        Endereço: <input type="text" name="endereço"><br>
-        E-mail: <input type="email" name="email"><br>
-        Telefone: <input type="tel" name="numero"><br>
-        
+    <form id="form">
+        Nome: <input type="text" id="nome" name="nome"><br>
+        Endereço: <input type="text" id="endereco" name="endereco"><br>
+        E-mail: <input type="email" id="email" name="email"><br>
+        Telefone: <input type="tel" id="telefone" name="telefone"><br>
 
-
-        <input type="submit" value="Gravar">
+        <input type="button" id="gravar" value="Gravar">
+        <input type="button" id="exibir" value="Exibir">
     </form>    
+
+    <div id="dados-armazenados"></div>
+
+    <script src="/A04 - Armazenamento Local/script.js"></script>
 </body>
 </html>
